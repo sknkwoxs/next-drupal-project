@@ -39,7 +39,10 @@ if (DRUPAL_ENV == 'dev') {
   $settings['container_yamls'][] = '../scripts/project/theme-dev.services.yml';
   $config['system.logging']['error_level'] = 'verbose';
   $settings['skip_permissions_hardening'] = TRUE;
-  $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+  $settings['config_exclude_modules'] = [
+    'devel', 'devel_generate', 'stage_file_proxy'
+  ];
+
   /**
    * Cache 관련 설정.
    */

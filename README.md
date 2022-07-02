@@ -34,4 +34,5 @@ $ drush -y en next_jsonapi
 # if got errors, uninstall pathauto, reinstall next_jsonapi
 # $ drush -y pmu pathauto && drush -y en next_jsonapi && drush cr or ctrl+c && composer start
 $ npx create-next-app -e https://github.com/chapter-three/next-drupal-basic-starter -y
+$ composer require drush/devel && drush -y en devel_generate && drush genc 10 5
 ```
