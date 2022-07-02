@@ -1,0 +1,10 @@
+uuid: fac6d702-6a4d-490b-8ee7-994d11e9d286
+langcode: ko
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Token
+targetEntityType: file
+cache: true

@@ -20,3 +20,18 @@ $ composer start
 # Uninstall site.
 $ composer site-uninstall
 ```
+
+## into the next-drupal
+
+<https://next-drupal.org/learn/quick-start/install-drupal>
+
+```bash
+$ export $(grep -v '^#' .env | xargs) && composer start
+$ composer require drupal/next
+# add patches to composer.json
+$ composer update -o
+$ drush -y en next_jsonapi
+# if got errors, uninstall pathauto, reinstall next_jsonapi
+# $ drush -y pmu pathauto && drush -y en next_jsonapi && drush cr or ctrl+c && composer start
+$ npx create-next-app -e https://github.com/chapter-three/next-drupal-basic-starter -y
+```

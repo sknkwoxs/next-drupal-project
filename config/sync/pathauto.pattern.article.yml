@@ -1,0 +1,22 @@
+uuid: 0f34f16e-1fe8-4586-8d02-1e83fabd57e7
+langcode: ko
+status: true
+dependencies:
+  module:
+    - node
+id: article
+label: 기사
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  20e3d942-3392-41e5-8da1-24ae9cb2466b:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 20e3d942-3392-41e5-8da1-24ae9cb2466b
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: 0
+relationships: {  }

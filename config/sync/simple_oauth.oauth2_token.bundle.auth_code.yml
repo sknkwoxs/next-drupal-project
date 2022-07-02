@@ -1,0 +1,10 @@
+uuid: e0067558-2065-41fc-8daf-38af8a4d5001
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zYKaSl4QZrKMFj7aIhSGDRcBy4SoNjvY2EZlT7amrBk
+id: auth_code
+label: 'Auth code'
+description: 'The auth code type.'
+locked: true
