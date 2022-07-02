@@ -1,0 +1,12 @@
+uuid: 12bedbd2-5dc9-483f-bc98-5a3f3b692332
+langcode: ko
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6GCOQ-jP2RbdbHA5YWQ6bT8CfGbqrBYKOSC_XY4E3ZM
+id: node.search_result
+label: '검색어 강조 검색 결과'
+targetEntityType: node
+cache: true

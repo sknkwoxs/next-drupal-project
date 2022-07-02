@@ -1,0 +1,20 @@
+uuid: e4b1605c-427f-46c0-9a20-3e78f5d55b27
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: claro_page_title
+theme: claro
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: '페이지 제목'
+  label_display: '0'
+  provider: core
+visibility: {  }

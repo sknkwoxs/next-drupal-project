@@ -1,0 +1,22 @@
+uuid: 9372d94e-a0db-4fd4-8491-152d0fbfbeed
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: claro_content
+theme: claro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: '메인 페이지 콘텐츠'
+  label_display: '0'
+  provider: system
+visibility: {  }

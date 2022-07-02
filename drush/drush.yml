@@ -1,5 +1,8 @@
 # https://raw.githubusercontent.com/drush-ops/drush/10.x/examples/example.drush.yml
 
+options:
+  uri: http://localhost:8888
+
 command:
   sql:
     dump:

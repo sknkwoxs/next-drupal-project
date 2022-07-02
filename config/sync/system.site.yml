@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: ko
+uuid: 6b26e679-1983-45c3-8fac-b17302a913a8
+name: drupal-9
+mail: mozodev@users.noreply.github.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ko

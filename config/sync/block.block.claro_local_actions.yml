@@ -1,0 +1,20 @@
+uuid: 535f7dda-b6e3-481e-b9df-357a9a95ebc4
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: claro_local_actions
+theme: claro
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: '기본 관리자 작업'
+  label_display: '0'
+  provider: core
+visibility: {  }

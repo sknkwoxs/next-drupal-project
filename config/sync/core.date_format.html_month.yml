@@ -1,0 +1,10 @@
+uuid: 96205ea2-614c-4585-8a2d-5df7c0f60906
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
+id: html_month
+label: 'HTML 월'
+locked: true
+pattern: Y-m

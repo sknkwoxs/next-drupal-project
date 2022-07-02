@@ -1,6 +1,8 @@
-# drupal-project
+# next-drupal-project
 
 FROM [drupal/recommended-project](https://github.com/drupal/recommended-project)
+
+## install drupal project
 
 ```bash
 # Just use this as template to create new repo and clone it.

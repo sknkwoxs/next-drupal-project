@@ -1,0 +1,11 @@
+uuid: 4051568e-2a6d-4941-b04d-56b1ef585cac
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
+id: und
+label: '지정되지 않음'
+direction: ltr
+weight: 2
+locked: true

@@ -1,0 +1,20 @@
+uuid: cec1b8c9-4510-4d5c-b6db-0f4f5b7a7fff
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - olivero
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: olivero_primary_admin_actions
+theme: olivero
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: '기본 관리자 작업'
+  label_display: '0'
+  provider: core
+visibility: {  }

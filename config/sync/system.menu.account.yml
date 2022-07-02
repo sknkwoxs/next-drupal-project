@@ -1,0 +1,10 @@
+uuid: 203bf1ce-f78c-468f-97d2-c471340de147
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
+id: account
+label: '사용자 계정 메뉴'
+description: 'Links related to the active user account'
+locked: true

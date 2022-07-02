@@ -1,0 +1,10 @@
+uuid: ead72ca5-a25e-4d4f-b19c-64347fb35a75
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: '메인 네비게이션'
+description: 'Site section links'
+locked: true

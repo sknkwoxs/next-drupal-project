@@ -1,0 +1,10 @@
+uuid: c98379d3-e847-4cd6-b92a-7662b1318c62
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
+id: html_time
+label: 'HTML 시간'
+locked: true
+pattern: 'H:i:s'
