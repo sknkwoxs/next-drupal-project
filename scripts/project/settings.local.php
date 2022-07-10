@@ -16,9 +16,10 @@ if (!defined('DRUPAL_ENV')) {
  */
 $settings_keys = ['trusted_host_patterns'];
 foreach ($settings_keys as $key) {
-  if (!empty(getenv('DRUPAL_' . strtoupper($key)))) {
+  $value = getenv('DRUPAL_' . strtoupper($key), 0);
+  if (!empty($value)) {
     $settings[$key] = ($key == 'trusted_host_patterns') ?
-      explode('|', $settings['trusted_host_patterns']) : getenv('DRUPAL_' . strtoupper($key));
+      explode('|', $settings['trusted_host_patterns']) : $value;
   }
 }
 
@@ -27,7 +28,8 @@ foreach ($settings_keys as $key) {
  */
 $databases_keys = ['database', 'host', 'port', 'driver', 'username', 'password', 'prefix', 'collation'];
 foreach ($databases_keys as $key) {
-  if (!empty(getenv('DRUPAL_DB_' . strtoupper($key), 0))) {
+  $value = getenv('DRUPAL_DB_' . strtoupper($key), 0);
+  if (!empty($value)) {
     $databases['default']['default'][$key] = $value;
   }
 }
