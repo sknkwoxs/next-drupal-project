@@ -1,0 +1,15 @@
+uuid: e0616261-5d7d-4f87-b9b1-aa1a15401426
+langcode: ko
+status: true
+dependencies:
+  module:
+    - next_extras
+third_party_settings:
+  next_extras:
+    revalidate: true
+    revalidate_paths: "/blog\r\n/blog/*"
+id: node.article
+site_resolver: site_selector
+configuration:
+  sites:
+    vercel_sknk_dev: vercel_sknk_dev

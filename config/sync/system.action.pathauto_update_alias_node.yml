@@ -1,4 +1,4 @@
-uuid: d804fdb0-06dc-4ed6-8223-00508d808e43
+uuid: ae74cf6d-5f82-4f77-a3c7-89a5bf50e18c
 langcode: ko
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
 id: pathauto_update_alias_node
-label: 'Update URL alias'
+label: 'URL 별명 업데이트하기'
 type: node
 plugin: pathauto_update_alias
 configuration: {  }

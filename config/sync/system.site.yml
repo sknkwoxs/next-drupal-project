@@ -1,8 +1,8 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: ko
-uuid: 6b26e679-1983-45c3-8fac-b17302a913a8
-name: drupal-9
+uuid: a047ce82-17a0-40cc-85d9-7ab36f770289
+name: drupal-next
 mail: mozodev@users.noreply.github.com
 slogan: ''
 page:

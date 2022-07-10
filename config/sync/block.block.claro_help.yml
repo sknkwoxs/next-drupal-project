@@ -1,4 +1,4 @@
-uuid: 809bdec9-fd4a-4e9b-90e8-3291c5e8d45e
+uuid: 89a9fee6-4840-40a0-a7e4-080d45881534
 langcode: ko
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: 도움말
+  label: Help
   label_display: '0'
   provider: help
 visibility: {  }

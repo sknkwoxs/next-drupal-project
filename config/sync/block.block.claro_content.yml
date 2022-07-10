@@ -1,4 +1,4 @@
-uuid: 9372d94e-a0db-4fd4-8491-152d0fbfbeed
+uuid: 420d3353-1d1d-4c91-90c3-b9176ee8e22e
 langcode: ko
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: '메인 페이지 콘텐츠'
+  label: 'Main page content'
   label_display: '0'
   provider: system
 visibility: {  }

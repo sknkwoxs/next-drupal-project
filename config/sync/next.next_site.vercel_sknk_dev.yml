@@ -1,0 +1,9 @@
+uuid: 20d29e29-9be8-4c05-9f43-7915b2a9eb02
+langcode: ko
+status: true
+dependencies: {  }
+id: vercel_sknk_dev
+label: vercel-sknk-dev
+base_url: 'https://next-drupal-iota.vercel.app'
+preview_url: 'https://next-drupal-iota.vercel.app/api/preview'
+preview_secret: lettherebepreview

@@ -1,4 +1,4 @@
-uuid: 01fdf3e0-100d-4c71-981f-073f14b62e0f
+uuid: 73503c59-52fc-4a9c-b57a-8c11df8ececf
 langcode: ko
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 기본탭
+  label: 'Primary tabs'
   label_display: '0'
   provider: core
   primary: true

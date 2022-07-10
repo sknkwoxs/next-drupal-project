@@ -1,4 +1,4 @@
-uuid: e4b1605c-427f-46c0-9a20-3e78f5d55b27
+uuid: 548d3ad4-a7a5-4c2b-bdd2-9311495b6561
 langcode: ko
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: '페이지 제목'
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

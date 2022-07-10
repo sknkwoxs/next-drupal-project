@@ -1,4 +1,4 @@
-uuid: 2084ea6a-e686-4b45-9d13-dc3e3c527d5b
+uuid: 73eceaf7-aa84-405f-bf6c-079c8e7a6a3c
 langcode: ko
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: '상태 메시지'
+  label: 'Status messages'
   label_display: '0'
   provider: system
 visibility: {  }

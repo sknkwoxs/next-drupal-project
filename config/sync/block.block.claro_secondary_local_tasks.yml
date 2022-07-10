@@ -1,4 +1,4 @@
-uuid: 39720414-1463-4a00-b245-1190e56dc22a
+uuid: 87d72482-13b9-43c6-b3da-3bcedef775cb
 langcode: ko
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 보조탭
+  label: 'Secondary tabs'
   label_display: '0'
   provider: core
   primary: false

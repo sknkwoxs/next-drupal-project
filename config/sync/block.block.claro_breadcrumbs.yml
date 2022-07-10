@@ -1,4 +1,4 @@
-uuid: 115b2d44-39ec-48a5-ba29-ba196b48ba5b
+uuid: 1b5bac74-34b9-447a-8e96-2044ae911073
 langcode: ko
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: '이동 경로'
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }

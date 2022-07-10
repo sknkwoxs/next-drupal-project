@@ -1,22 +1,22 @@
-uuid: e962ea7d-56bd-4398-bfbd-bed19cc63a8c
+uuid: cac1f4c5-c932-4c83-a50d-529597d17e2f
 langcode: ko
 status: true
 dependencies:
   module:
     - help
   theme:
-    - olivero
+    - gin
 _core:
-  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
-id: olivero_help
-theme: olivero
-region: content_above
+  default_config_hash: 8nOAry2oKqJOr0zbrlJ3sZHDFJLIO6j-0vT0K_TYca4
+id: gin_help
+theme: gin
+region: help
 weight: 0
 provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: 도움말
+  label: Help
   label_display: '0'
   provider: help
 visibility: {  }

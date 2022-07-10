@@ -1,4 +1,4 @@
-uuid: 535f7dda-b6e3-481e-b9df-357a9a95ebc4
+uuid: 2fa58f27-a88a-4bea-b059-ae9348c15203
 langcode: ko
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: '기본 관리자 작업'
+  label: 'Primary admin actions'
   label_display: '0'
   provider: core
 visibility: {  }

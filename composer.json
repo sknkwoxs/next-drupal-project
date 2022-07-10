@@ -1,6 +1,6 @@
 {
-    "name": "mozodev/drupal-project",
-    "description": "Another project template for Drupal 9+ projects with a relocated document root",
+    "name": "sknkwoxs/next-drupal-project",
+    "description": "Headless drupal with Nextjs",
     "type": "project",
     "license": "MIT",
     "repositories": [
@@ -32,9 +32,13 @@
     "scripts": {
         "workspace": ["DrupalProject\\composer\\ScriptHandler::addWorkspace"],
         "env": "php -r \"copy('scripts/project/env.example', './.env');\"; echo 'export $(grep -v '^#' .env | xargs) && env | grep DRUSH_'",
+        "env-fpm": [
+            "@env",
+            "env | grep DRUPAL | sed \"s/\\(.*\\)=\\(.*\\)/env[\\1]='\\2'\" | sudo tee -a /etc/php/8.1/fpm/pool.d/www.conf",
+            "restart-web"
+        ],
         "add-settings-local": ["DrupalProject\\composer\\ScriptHandler::addSettingsLocal"],
         "site-install": [
-            "@env",
             "echo '$settings[\"config_sync_directory\"] = \"../config/sync\";' >> web/sites/default/default.settings.php",
             "drush -y si standard install_configure_form.date_default_country=KR install_configure_form.date_default_timezone=Asia/Seoul install_configure_form.enable_update_status_emails=NULL",
             "@add-settings-local"
@@ -92,6 +96,10 @@
             },
             "drupal/decoupled_router": {
                 "https://www.drupal.org/project/decoupled_router/issues/3111456": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
+            },
+            "drupal/core": {
+                "https://www.drupal.org/project/drupal/issues/3255637#comment-14449611": "https://www.drupal.org/files/issues/2022-03-18/fix-for-php-greater-8-1-3255637.patch",
+                "https://www.drupal.org/project/drupal/issues/3280848": "https://www.drupal.org/files/issues/2022-05-17/core-deprecated-strnatcasecmp-coalescing-op-3280848-5.patch"
             }
         }
     },

@@ -1,22 +1,22 @@
-uuid: 0cdbd36b-a76a-4771-bbcc-e6833d7b2bc8
+uuid: b37d133a-e2b1-4deb-906a-473a50fb1f92
 langcode: ko
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - gin
 _core:
-  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: olivero_breadcrumbs
-theme: olivero
+  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
+id: gin_breadcrumbs
+theme: gin
 region: breadcrumb
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: '이동 경로'
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }
